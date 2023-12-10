@@ -1,0 +1,8 @@
+tasks:
+  - name: java
+    init: |
+      sudo apt update
+      sudo apt install openjdk-17-jdk -y
+      export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+      sudo apt-get update
+      sudo apt-get install -y maven
